@@ -16,7 +16,8 @@ export_paths:
   - vite.config.mjs
   - .gitignore
   - app/Scopes
-  - README.md
+export_as:
+  README.md: README.md
 dependencies:
   aryehraber/statamic-captcha: ^1.12
   laravel/horizon: ^5.27
@@ -24,3 +25,5 @@ dependencies:
   marcorieser/statamic-livewire: ^4.0
   pecotamic/sitemap: ^1.4
   spatie/laravel-schedule-monitor: ^3.8
+dependencies_dev:
+  barryvdh/laravel-debugbar: ^3.6
