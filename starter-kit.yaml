@@ -1,0 +1,26 @@
+export_paths:
+  - content
+  - config/filesystems.php
+  - config/statamic/assets.php
+  - config/statamic/editions.php
+  - config/statamic/cp.php
+  - resources/blueprints
+  - resources/fieldsets
+  - resources/css
+  - resources/js
+  - resources/views
+  - public/assets
+  - public/css
+  - public/fonts
+  - package.json
+  - vite.config.mjs
+  - .gitignore
+  - app/Scopes
+  - README.md
+dependencies:
+  aryehraber/statamic-captcha: ^1.12
+  laravel/horizon: ^5.27
+  marcorieser/statamic-live-search: ^3.0
+  marcorieser/statamic-livewire: ^4.0
+  pecotamic/sitemap: ^1.4
+  spatie/laravel-schedule-monitor: ^3.8
