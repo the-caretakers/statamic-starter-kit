@@ -20,8 +20,6 @@ export_paths:
   - app/Tags
   - app/SearchFilters
   - config/statamic/search.php
-export_as:
-  README.md: README.md
 dependencies:
   aryehraber/statamic-captcha: ^1.12
   laravel/horizon: ^5.27
