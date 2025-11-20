@@ -25,6 +25,7 @@ export_paths:
   - app/SearchFilters
   - database/migrations/2025_09_07_151028_create_schedule_monitor_tables.php
   - deploy.sh
+  - vite.config.mjs
 dependencies:
   aryehraber/statamic-captcha: ^1.12
   laravel/horizon: ^5.27
